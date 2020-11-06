@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <title>Reservia</title>
+  <link rel="icon" href="favicon.ico"><link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="logo">
+          <img src="images/content/logo.png" alt="Reservia">
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li>
+              <a href="#rentals" class="current">Hébergements</a>
+            </li>
+            <li>
+              <a href="#activity">Activité</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="" class="link-register">S'inscrire</a>
+      </div>
+    </header>
+    <main class="main">
+      <div class="wrapper">
+        <header class="main_header">
+          <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+          <p class="subtitle">En plein centre ville ou en pleine nature</p>
+          <div class="row">
+            <form  action="#" method="get">
+              <div class="input-group">
+                <div class="input-group_prepend">
+                  <i class="material-icons">place</i>
+                </div>
+                <input class="form-control" type="text" name="search" value="Marseille, France"/>
+                <button class="input-group_postpend btn desktop">Rechercher</button>
+                <button class="input-group_postpend btn mobile">
+                  <i class="material-icons">search</i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="row">
+            <div class="filters">
+              <p class="filters_title">Filtres</p>
+              <div class="chips">
+                <div class="chip">
+                  <label for="money">
+                    <input type="checkbox" name="money" id="money"/>
+                    <span class="chip_content">
+                      <span class="chip_icon">
+                        <i class="material-icons">local_atm</i>
+                      </span>
+                      <span>économique</span>
+                    </span>
+                  </label>
+                </div>
+                <div class="chip">
+                  <label for="family_restroom">
+                    <input type="checkbox" name="family_restroom" id="family_restroom"/>
+                    <span class="chip_content">
+                      <span class="chip_icon">
+                        <i class="material-icons">family_restroom</i>
+                      </span>
+                      <span>familial</span>
+                    </span>
+                  </label>
+                </div>
+                <div class="chip">
+                  <label for="favorite">
+                    <input type="checkbox" name="favorite" id="favorite"/>
+                    <span class="chip_content">
+                      <span class="chip_icon">
+                        <i class="material-icons">favorite</i>
+                      </span>
+                      <span>romantique</span>
+                    </span>
+                  </label>
+                </div>
+                <div class="chip">
+                  <label for="pets">
+                    <input type="checkbox" name="pets" id="pets"/>
+                    <span class="chip_content">
+                      <span class="chip_icon">
+                        <i class="material-icons">pets</i>
+                      </span>
+                      <span>animaux autorisés</span>
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <p class="info-line">
+              <span class="ico-info">
+                i
+              </span>
+              Plus de 500 logements sont disponibles dans cette ville
+            </p>
+          </div>
+        </header>
+        <section class="rentals" id="rentals">
+          <div class="content encart">
+            <h2>Hébergements à Marseille</h2>
+            <div class="cards">
+              <div class="card">
+                <a href="#">
+                <div class="card_image" style="background-image:url(images/content/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg)">
+                  <img src="images/content/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                       srcset="images/content/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg 2x,
+                       images/content/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg 1x"
+                  alt="Auberge la Canebière">
+                </div>
+                <div class="card_content">
+                  <p class="card_title">Auberge la Canebière</p>
+                  <p class="card_price">nuit à partir de <span>25€</span></p>
+                  <div class="card_rating">
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons empty">start</i>
+                  </div>
+                </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="#">
+                <div class="card_image">
+                  <img src="images/content/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                       srcset="images/content/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg 2x,
+                       images/content/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1x"
+                  alt="Auberge du port">
+                </div>
+                <div class="card_content">
+                  <p class="card_title">Auberge du port</p>
+                  <p class="card_price">nuit à partir de <span>52€</span></p>
+                  <div class="card_rating">
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                  </div>
+                </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="#">
+                <div class="card_image">
+                  <img src="images/content/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                       srcset="images/content/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg 2x,
+                       images/content/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg 1x"
+                  alt="Hotêl Les mouettes">
+                </div>
+                <div class="card_content">
+                  <p class="card_title">Hotêl Les mouettes</p>
+                  <p class="card_price">nuit à partir de <span>76€</span></p>
+                  <div class="card_rating">
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons empty">start</i>
+                  </div>
+                </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="#">
+                <div class="card_image">
+                  <img src="images/content/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                       srcset="images/content/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg 2x,
+                       images/content/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg 1x"
+                  alt="Hotêl de la mer">
+                </div>
+                <div class="card_content">
+                  <p class="card_title">Hotêl de la mer</p>
+                  <p class="card_price">nuit à partir de <span>46€</span></p>
+                  <div class="card_rating">
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons empty">start</i>
+                    <i class="material-icons empty">start</i>
+                  </div>
+                </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="#">
+                <div class="card_image">
+                  <img src="images/content/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                       srcset="images/content/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 2x,
+                       images/content/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 1x"
+                  alt="Auberge Le panier">
+                </div>
+                <div class="card_content">
+                  <p class="card_title">Auberge Le panier</p>
+                  <p class="card_price">nuit à partir de <span>23€</span></p>
+                  <div class="card_rating">
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons empty">start</i>
+                  </div>
+                </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="#">
+                <div class="card_image">
+                  <img src="images/content/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                       srcset="images/content/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 2x,
+                       images/content/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 1x"
+                  alt="Hotêl chez Amina">
+                </div>
+                <div class="card_content">
+                  <p class="card_title">Hotêl chez Amina</p>
+                  <p class="card_price">nuit à partir de <span>96€</span></p>
+                  <div class="card_rating">
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                  </div>
+                </div>
+                </a>
+              </div>
+            </div>
+            <a href="" class="show-more">Afficher plus</a>
+          </div>
+          <aside class="sidebar encart">
+            <h2>Les plus populaires <i class="material-icons">trending_up</i></h2>
+            <div class="cards">
+              <div class="card card--inline">
+                <a href="#">
+                <div class="card_image">
+                  <img src="images/content/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                       srcset="images/content/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg 2x,
+                       images/content/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg 1x"
+                  alt="Auberge la Canebière">
+                </div>
+                <div class="card_content">
+                  <p class="card_title">Auberge la Canebière</p>
+                  <p class="card_price">nuit à partir de <span>25€</span></p>
+                  <div class="card_rating">
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons empty">start</i>
+                  </div>
+                </div>
+                </a>
+              </div>
+              <div class="card card--inline">
+                <a href="#">
+                <div class="card_image">
+                  <img src="images/content/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                       srcset="images/content/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg 2x,
+                       images/content/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1x"
+                  alt="Auberge du port">
+                </div>
+                <div class="card_content">
+                  <p class="card_title">Auberge du port</p>
+                  <p class="card_price">nuit à partir de <span>52€</span></p>
+                  <div class="card_rating">
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                  </div>
+                </div>
+                </a>
+              </div>
+              <div class="card card--inline">
+                <a href="#">
+                <div class="card_image">
+                  <img src="images/content/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                       srcset="images/content/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg 2x,
+                       images/content/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg 1x"
+                  alt="Hotêl Les mouettes">
+                </div>
+                <div class="card_content">
+                  <p class="card_title">Hotêl Les mouettes</p>
+                  <p class="card_price">nuit à partir de <span>76€</span></p>
+                  <div class="card_rating">
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons">start</i>
+                    <i class="material-icons empty">start</i>
+                  </div>
+                </div>
+                </a>
+              </div>
+            </div>
+          </aside>
+        </section>
+        <section class="activity" id="activity">
+          <h2>Activités à Marseille</h2>
+          <div class="activities">
+            <div class="col-activity">
+              <a href="#">
+              <div class="col-activity_img" style="background-image:url(images/content/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg)">
+              </div>
+              <div class="col-activity_content">
+                <p class="title">Vieux Port</p>
+                <span>Voir l'activité <i class="material-icons">launch</i></span>
+              </div>
+              </a>
+            </div>
+            <div class="col">
+              <div class="card-activity">
+                <a href="#">
+                <div class="card-activity_img" style="background-image:url(images/content/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg)">
+                </div>
+                <div class="card-activity_content">
+                  <p class="title">Fort de Pomègues</p>
+                  <span>Voir l'activité <i class="material-icons">launch</i></span>
+                </div>
+                </a>
+              </div>
+              <div class="card-activity">
+                <a href="#">
+                <div class="card-activity_img" style="background-image:url(images/content/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg)">
+                </div>
+                <div class="card-activity_content">
+                  <p class="title">Iles de Frioul</p>
+                  <span>Voir l'activité <i class="material-icons">launch</i></span>
+                </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-activity">
+              <a href="#">
+              <div class="col-activity_img" style="background-image:url(images/content/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg)">
+              </div>
+              <div class="col-activity_content">
+                <p class="title">Par National des Calanques</p>
+                <span>Voir l'activité <i class="material-icons">launch</i></span>
+              </div>
+              </a>
+            </div>
+            <div class="col">
+              <div class="card-activity">
+                <a href="#">
+                <div class="card-activity_img" style="background-image:url(images/content/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg)">
+                </div>
+                <div class="card-activity_content">
+                  <p class="title">Notre-Dame-de-la-garde</p>
+                  <span>Voir l'activité <i class="material-icons">launch</i></span>
+                </div>
+                </a>
+              </div>
+              <div class="card-activity">
+                <a href="#">
+                <div class="card-activity_img" style="background-image:url(images/content/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg)">
+                </div>
+                <div class="card-activity_content">
+                  <p class="title">Parc Longchamp</p>
+                  <span>Voir l'activité <i class="material-icons">launch</i></span>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer_content">
+          <ul class="footer_list">
+            <li class="title">A propos</li>
+            <li>
+              <a href="#">Fonctionnement du site</a>
+            </li>
+            <li>
+              <a href="#">Conditions générales de vente</a>
+            </li>
+            <li>
+              <a href="#">Données et confidentialité</a>
+            </li>
+          </ul>
+          <ul class="footer_list">
+            <li class="title">Nos hébergements</li>
+            <li>
+              <a href="#">Charte qualité</a>
+            </li>
+            <li>
+              <a href="#">Soumettre votre hôtel</a>
+            </li>
+          </ul>
+          <ul class="footer_list">
+            <li class="title">Assistance</li>
+            <li>
+              <a href="#">Centre d'aide</a>
+            </li>
+            <li>
+              <a href="mailto:contact@reservia.com">nous contacter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
